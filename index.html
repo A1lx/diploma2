@@ -18,26 +18,29 @@
       </div>
       <nav>
         <ul class="menu-list">
-          <li>
+          <li class="menu-list-item">
             <a href="#0" class="list-link">главная</a>
           </li>
-          <li>
+          <li class="menu-list-item">
             <a href="#0" class="list-link">посты</a>
           </li>
-          <li>
+          <li class="menu-list-item">
             <a href="#0" class="list-link">статьи</a>
           </li>
-          <li>
+          <li class="menu-list-item">
             <a href="#0" class="list-link">теги</a>
           </li>
-          <li>
+          <li class="menu-list-item">
             <a href="#0" class="list-link">темы</a>
           </li>
-          <li>
+          <li class="menu-list-item">
             <a href="#0" class="list-link">контакты</a>
           </li>
         </ul>
       </nav>
+      <button class="menu-list-button">
+        <span class="visually-hidden">Раскрыть меню</span>
+      </button>
     </div>
     <h1 class="title">Блог о творчестве, спорте, и образе жизни</h1>
   </header>
@@ -51,53 +54,61 @@
       <article class="trend trend-garden-img">
         <div class="trend-text-box">
           <ul class="trend-tag">
-            <li>
+            <li class="trend-tag-item">
               <a href="#0" class="trend-tag-link">Lifestyle</a>
             </li>
-            <li>
+            <li class="trend-tag-item">
               <a href="#0" class="trend-tag-link">Interior</a>
             </li>
           </ul>
-          <a href="#0" class="trend-link">Сейчас в тренде: сад на подоконнике</a>
+          <h2 class="trend-header">
+            <a href="#0" class="trend-link">Сейчас в тренде: сад на подоконнике</a>
+          </h2>
         </div>
       </article>
       <!--  2 trend -->
       <article class="trend trend-cheeses-img">
         <div class="trend-text-box">
           <ul class="trend-tag">
-            <li>
+            <li class="trend-tag-item">
               <a href="#0" class="trend-tag-link">Food</a>
             </li>
           </ul>
-          <a href="#0" class="trend-link">Cыры на красивых картинках из интернета: какие они на вкус?</a>
+          <h2 class="trend-header">
+            <a href="#0" class="trend-link">Cыры на красивых картинках из интернета: какие они на вкус?</a>
+          </h2>
         </div>
       </article>
       <!--  3 trend -->
       <article class="trend trend-mountains-img">
         <div class="trend-text-box">
           <ul class="trend-tag">
-            <li>
+            <li class="trend-tag-item">
               <a href="#0" class="trend-tag-link">Lifestyle</a>
             </li>
-            <li>
+            <li class="trend-tag-item">
               <a href="#0" class="trend-tag-link">Travel</a>
             </li>
           </ul>
-          <a href="#0" class="trend-link">Собираемся в первый поход в горы</a>
+          <h2 class="trend-header">
+            <a href="#0" class="trend-link">Собираемся в первый поход в горы</a>
+          </h2>
         </div>
       </article>
       <!--  4 trend -->
       <article class="trend trend-lemons-img">
         <div class="trend-text-box">
           <ul class="trend-tag">
-            <li>
+            <li class="trend-tag-item">
               <a href="#0" class="trend-tag-link">Food</a>
             </li>
-            <li>
+            <li class="trend-tag-item">
               <a href="#0" class="trend-tag-link">Health</a>
             </li>
           </ul>
-          <a href="#0" class="trend-link">Сейчас в тренде: сколько витамина c в лимонах?</a>
+          <h2 class="trend-header">
+            <a href="#0" class="trend-link">Сейчас в тренде: сколько витамина c в лимонах?</a>
+          </h2>
         </div>
       </article>
     </div>
@@ -114,10 +125,10 @@
         </div>
         <div class="post-text">
           <ul class="post-tag">
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">Travel</a>
             </li>
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">Health</a>
             </li>
           </ul>
@@ -139,10 +150,10 @@
         </div>
         <div class="post-text">
           <ul class="post-tag">
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">health</a>
             </li>
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">lifestyle</a>
             </li>
           </ul>
@@ -164,7 +175,7 @@
         </div>
         <div class="post-text">
           <ul class="post-tag">
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">music</a>
             </li>
           </ul>
@@ -187,10 +198,10 @@
         </div>
         <div class="post-text">
           <ul class="post-tag">
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">lifestyle</a>
             </li>
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">food</a>
             </li>
           </ul>
@@ -212,13 +223,13 @@
         </div>
         <div class="post-text">
           <ul class="post-tag">
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">lifestyle</a>
             </li>
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">interior</a>
             </li>
-            <li>
+            <li class="post-tag-item">
               <a href="#0" class="post-link">art</a>
             </li>
           </ul>
@@ -391,7 +402,15 @@
       <!--     1 product -->
       <article class="product">
         <div class="product-pic-box">
-          <img src="img\shop-item-desk1.jpg" alt="Подушки" class="product-pic">
+          <picture class="product-pic">
+            <source
+            media="(min-width: 1200px)"
+            srcset="img\shop-item-desk1.jpg">
+            <source
+            media="(min-width: 641px) and (max-width: 1199px)"
+            srcset="img\shop-item-tablet1.jpg">
+            <img src="img\shop-item-desk1.jpg" alt="Подушки" class="product-pic">
+          </picture>
         </div>
         <div class="product-text-box">
           <h3 class="product-header">Подушки на диван</h3>
@@ -412,7 +431,15 @@
       <!--     2 product -->
       <article class="product">
         <div class="product-pic-box">
-          <img src="img\shop-item-desk2.jpg" alt="Мягкая игрушка" class="product-pic">
+          <picture class="product-pic">
+            <source
+            media="(min-width: 1200px)"
+            srcset="img\shop-item-desk2.jpg">
+            <source
+            media="(min-width: 641px) and (max-width: 1199px)"
+            srcset="img\shop-item-tablet2.jpg">
+            <img src="img\shop-item-desk2.jpg" alt="Мягкая игрушка" class="product-pic">
+          </picture>
         </div>
         <div class="product-text-box">
           <h3 class="product-header">Кукла «Зайчик»</h3>
@@ -432,7 +459,15 @@
       <!--     3 product -->
       <article class="product">
         <div class="product-pic-box">
-          <img src="img\shop-item-desk3.jpg" alt="Рамка и ваза" class="product-pic">
+          <picture class="product-pic">
+            <source
+            media="(min-width: 1200px)"
+            srcset="img\shop-item-desk3.jpg">
+            <source
+            media="(min-width: 641px) and (max-width: 1199px)"
+            srcset="img\shop-item-tablet3.jpg">
+            <img src="img\shop-item-desk3.jpg" alt="Рамка и ваза" class="product-pic">
+          </picture>
         </div>
         <div class="product-text-box">
           <h3 class="product-header">Шестиугольная рамка</h3>
